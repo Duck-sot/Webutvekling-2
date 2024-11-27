@@ -1,0 +1,26 @@
+h1{
+    text-align: center;
+}
+.nav ul{
+    text-align: center;
+    list-style-type: none;
+    background-color:var(--SecoC);
+    padding: 0%;
+    margin: 0%;
+    overflow: hidden;
+}
+.nav a{
+    color: var(--IntTextC);
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+.nav a:hover{
+    background-color: blue;
+    transition: 1s;
+}
+.nav li{
+    float: left;
+    color: var(--IntTextC);
+}
