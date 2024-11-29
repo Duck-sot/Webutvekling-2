@@ -18,7 +18,7 @@ header{
     text-align: center;
     font-size: 30px;
     color:var(--TextC) ;
-    background-color:var(--MainC) ;
+    background-color:var(--SecoC) ;
 }
 nav{
     grid-area: nav;
@@ -28,17 +28,6 @@ nav{
     grid-area: text;
     color:var(--TextC);
     background-color:var(--MainC) ;
-}
-.right{
-    background-color:var(--MainC) ;
-
-    grid-area: side;
-    z-index: 0;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
 }
 
 footer{
