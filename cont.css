@@ -68,7 +68,21 @@ main{
     display: flex;
     justify-content: center;
 }
-
-.form{
-
+input{
+    width: 380px;
+    font-size: 15px;
+}
+textarea{
+    font-size: 15px;
+}
+label{
+    font-size: 20px;
+}
+footer{
+    color: var(--TextC);
+    text-decoration: none;
+}
+.Verse1212 a{
+    text-decoration: none;
+    text-align: left;
 }
