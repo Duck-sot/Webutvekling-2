@@ -1,0 +1,79 @@
+@import "color.css";
+
+ @import "nav.css";
+
+ .container{
+    display: grid;
+    grid-template-columns: 2fr, 2fr, 2fr;
+    grid-auto-rows: minmax(45px, auto);
+
+    grid-template-areas:
+    'header header header'
+    'nav nav nav'
+    'side con1 con2'
+    'side con3 con4'
+    'footer footer footer'
+     ;
+ }
+ header{
+    grid-area: header ;
+    text-align: center;
+    background-color: var(--SecoC);
+    color: var(--TextC);
+    font-size: 30px;
+ }
+ nav{
+    grid-area: nav;
+    display: flex;
+    justify-content: center;
+ }
+ .con1{
+    grid-area: con1;
+    background-color: var(--MainC);
+    border: var(--TextC) solid;
+ }
+ .left{
+    grid-area:side ;
+    background-color: var(--MainC);
+    border: var(--TextC) solid;
+ }
+ .con2{
+    grid-area: con2;
+    background-color: var(--MainC);
+    border: var(--TextC) solid;
+ }     
+ .con3{
+    grid-area: con3;
+    background-color: var(--MainC);
+    border: var(--TextC) solid;
+ }
+ .con4{
+    grid-area: con4;
+    background-color: var(--MainC);
+    border: var(--TextC) solid;
+ }
+ footer{
+    grid-area: footer;
+    background-color: var(--SecoC);
+ }
+ body{
+    background-color: var(--SecoC);
+    margin: 0%;
+    padding: 0%;
+ }
+
+ @media (max-width: 950px){
+    .container{
+        display: grid;
+        grid-template-columns: 3fr, 3fr;
+        grid-auto-rows: minmax( 45px, auto);
+        
+        grid-template-areas: 
+        'header header'
+        'nav nav'
+        'con1 con2'
+        'side side'
+        'con3 con4'
+        'footer footer';
+    }
+ }

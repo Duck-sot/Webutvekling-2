@@ -25,6 +25,8 @@ header{
 }
 nav{
     grid-area: nav;
+    display: flex;
+    justify-content: center;
 }
 
 .left{
@@ -66,4 +68,5 @@ footer{
 body{
     margin: 0%;
     padding: 0%;
+    background-color: var(--SecoC);
 }

@@ -82,7 +82,8 @@ footer{
     color: var(--TextC);
     text-decoration: none;
 }
-.Verse1212 a{
+.Verse1212 {
     text-decoration: none;
-    text-align: left;
+    text-align: right;
+    color: var(--IntTextC);
 }
