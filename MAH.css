@@ -36,6 +36,7 @@
     grid-area:side ;
     background-color: var(--MainC);
     border: var(--TextC) solid;
+    
  }
  .con2{
     grid-area: con2;
